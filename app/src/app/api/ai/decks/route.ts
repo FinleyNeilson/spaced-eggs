@@ -77,8 +77,8 @@ function fillMissingQuizAnswers(value: unknown): unknown {
       const correctIndex = card.correctIndex;
       const correctOption =
         options &&
-        typeof correctIndex === "number" &&
-        Number.isInteger(correctIndex)
+          typeof correctIndex === "number" &&
+          Number.isInteger(correctIndex)
           ? options[correctIndex]
           : null;
       if (
@@ -139,8 +139,8 @@ export async function POST(request: Request) {
   const contentTypeValue = form.get("contentType");
   const contentType =
     contentTypeValue === "flashcards" ||
-    contentTypeValue === "quizzes" ||
-    contentTypeValue === "mixed"
+      contentTypeValue === "quizzes" ||
+      contentTypeValue === "mixed"
       ? contentTypeValue
       : "mixed";
   const cardCount = Number.isFinite(requestedCount)

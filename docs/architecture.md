@@ -127,11 +127,11 @@ accumulates a *history* of pets, not a single permanent one.)
 
 This satisfies the Phase 0 roadmap item "rough data model: users, decks,
 cards, review history, pet state." Schema now lives in
-`brainpal/prisma/schema.prisma`.
+`app/prisma/schema.prisma`.
 
 ## Known loose ends
 
 - The UI has been split from the original monolithic `pet-app.tsx` into
-  `brainpal/src/app/_components/pet-app/` (`index.tsx` entry point,
+  `app/src/app/_components/pet-app/` (`index.tsx` entry point,
   `village.tsx`, `screens/*`, etc.) — `page.tsx` now imports from this
   directory and the old single-file version is gone.

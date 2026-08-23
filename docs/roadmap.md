@@ -41,7 +41,7 @@ watch a pet react to that review history.
       warning/rescue mechanic during that window; also no "abandon for
       weeks" state beyond what health/growth already capture
 - [ ] Deck import/export or sharing
-- [ ] Decide the fate of `brainpal/src/app/_components/pet-app/` (unwired
+- [ ] Decide the fate of `app/src/app/_components/pet-app/` (unwired
       modular component split sitting next to the live monolithic
       `pet-app.tsx`) before it drifts further — finish wiring it in or
       delete it

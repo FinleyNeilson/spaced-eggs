@@ -1,4 +1,4 @@
-# Brainpal
+# Spaced Eggs (app)
 
 A [T3 Stack](https://create.t3.gg/) app — Next.js, TypeScript, tRPC, Prisma (SQLite), NextAuth (Google OAuth). See [docs/architecture.md](../docs/architecture.md) and [docs/vision.md](../docs/vision.md) for the project background.
 
