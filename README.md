@@ -7,6 +7,10 @@ whether you're actually keeping up with your reviews. Reaching adulthood
 graduates the pet into your village as a permanent resident; letting it go
 too long without review kills it. Either way, a new egg starts.
 
+![The village, with your current pet and graduated residents](docs/images/village.jpg)
+
+![The decks page](docs/images/decks.jpg)
+
 See [docs/vision.md](docs/vision.md) for the full pitch and design
 rationale, and [docs/architecture.md](docs/architecture.md) for the stack,
 data model, and current implementation status.
